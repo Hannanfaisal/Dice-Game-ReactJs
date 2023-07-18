@@ -1,0 +1,10 @@
+.rules{
+    height: 208px;
+    width: 794px;
+    background-color: #eed8d8;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    padding: 10px 15px;
+}

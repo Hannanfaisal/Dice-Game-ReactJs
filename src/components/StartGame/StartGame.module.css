@@ -1,0 +1,29 @@
+.startGame{
+    display: flex;
+    justify-content: center;
+}
+
+
+.startGame h1{
+    font-size: 96px;
+    margin-bottom: 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content div{
+
+    display: flex;
+    justify-content: end;  
+}
+
+
+
+
+
+

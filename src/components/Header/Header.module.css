@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    border-bottom: 1px solid ghostwhite;
+}
+
+.navbar img{
+    margin-right:10px;
+    animation: move 4s linear infinite;
+}
+
+.navbar div{
+    display: flex;
+    margin-left: 50px;
+    line-height:10px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    font-weight: 600;
+    font-size: larger;
+    margin-right: 50px;
+}
+
+.navbar ul li:hover{
+    cursor: pointer;
+}
+
+@keyframes move {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
